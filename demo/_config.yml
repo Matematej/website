@@ -1,7 +1,7 @@
-title: Hacked Jekyll
-description: Jekyll microtheme that looks like JSON
-baseurl: /hacked-jekyll
-url: https://piazzai.github.io
+title: OneMeatNobodyCanBeat
+description: Stock projection and analysis files
+baseurl: ""
+url: https://staging.d3bzsmonofa3d5.amplifyapp.com/
 
 theme: hacked-jekyll
 
@@ -10,6 +10,7 @@ exclude:
   - README.md
   - Gemfile
   - vendor/
+  - node_modules/
 
 plugins:
   - jekyll-seo-tag
@@ -17,4 +18,3 @@ plugins:
 
 sass:
   sourcemap: never
-  

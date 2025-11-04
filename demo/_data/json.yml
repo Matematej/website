@@ -1,38 +1,59 @@
 - key: Name
-  value: Place Holder
+  value: OneMeatNobodyCanBeat
+
 - key: Description
   value:
     - Hello!
-    - This tiny website
-    - Looks like JSON
+    - Welcome to my stock projection site.
+    - Browse Word and Excel analysis files below.
   typed: true
+
 - key: CV
   value: cv.pdf
   url: /cv.pdf
+
 - key: Address
   value:
     - University of Jekyll
     - Department of Themes
     - 123 Main St, Anytown, USA
+
 - key: Contact
   value:
-    - key: Office
-      value: Foobar Hall 1.23
-    - key: Phone
-      value: +1 234 567 890
     - key: Email
-      value: username@domain.com
-      url: "mailto:username@domain.com"
+      value: onemeatnobodycanbeat@domain.com
+      url: "mailto:onemeatnobodycanbeat@domain.com"
+
+- key: Profiles
+  value:
+    - value: Threads
+      url: "https://www.threads.net/@onemeatnobodycanbeat"
+    - value: Instagram
+      url: "https://www.instagram.com/onemeatnobodycanbeat"
+    - value: GitHub
+      url: "https://github.com/onemeatnobodycanbeat"
+
+- key: Stock Files
+  value:
+    - key: Excel
+      value:
+        - name: AMD
+          url: /AMD.xlsx
+        - name: AMZN
+          url: /AMZN.xlsx
+        - name: META
+          url: /META.xlsx
+        - name: NKE
+          url: /NKE.xlsx
+        - name: SOFI
+          url: /SOFI.xlsx
+        - name: CELH
+          url: /CELH.xlsx
+    - key: Word
+      value:
+        - name: PLNH_Analysis
+          url: /PLNH_Analysis.docx
+
 - key: Source
   value: piazzai/hacked-jekyll
   url: https://github.com/piazzai/hacked-jekyll
-- key: Profiles
-  value:
-    - value: Instagram
-      url: https://www.instagram.com
-    - value: LinkedIn
-      url: https://www.linkedin.com
-    - value: StackOverflow
-      url: https://stackoverflow.com
-    - value: GitHub
-      url: https://github.com
