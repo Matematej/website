@@ -3,17 +3,19 @@ frontend:
   phases:
     preBuild:
       commands:
+        - cd hacked-jekyll
         - gem install bundler --no-document
-        - bundle config set path 'vendor/bundle' || true
+        - bundle config set path 'vendor/bundle'
         - bundle install --jobs 4 --retry 3
     build:
       commands:
+        - cd hacked-jekyll
         - bundle exec jekyll build --config _config.yml
   artifacts:
-    baseDirectory: _site
+    baseDirectory: hacked-jekyll/_site
     files:
       - '**/*'
   cache:
     paths:
-      - vendor/bundle/**/*
-      - .jekyll-cache/**/*
+      - hacked-jekyll/vendor/bundle/**/*
+      - hacked-jekyll/.jekyll-cache/**/*
