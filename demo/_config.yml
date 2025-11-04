@@ -1,7 +1,7 @@
 title: OneMeatNobodyCanBeat
 description: Stock projection and analysis files
-baseurl: ""
-url: https://staging.d3bzsmonofa3d5.amplifyapp.com/
+baseurl: ""  # Leave blank if Amplify serves at root
+url: https://main.<your-amplify-app-id>.amplifyapp.com  # Replace after deploy
 
 theme: hacked-jekyll
 
@@ -11,6 +11,8 @@ exclude:
   - Gemfile
   - vendor/
   - node_modules/
+  - docs/
+  - demo/
 
 plugins:
   - jekyll-seo-tag

@@ -4,19 +4,13 @@
 - key: Description
   value:
     - Hello!
-    - Welcome to my stock projection site.
-    - Browse Word and Excel analysis files below.
+    - Welcome to my stock projection and analysis site.
+    - Browse Excel and Word files below.
   typed: true
 
 - key: CV
   value: cv.pdf
   url: /cv.pdf
-
-- key: Address
-  value:
-    - University of Jekyll
-    - Department of Themes
-    - 123 Main St, Anytown, USA
 
 - key: Contact
   value:
@@ -38,21 +32,35 @@
     - key: Excel
       value:
         - name: AMD
-          url: /AMD.xlsx
+          url: /files/AMD.xlsx
         - name: AMZN
-          url: /AMZN.xlsx
+          url: /files/AMZN.xlsx
         - name: META
-          url: /META.xlsx
+          url: /files/META.xlsx
         - name: NKE
-          url: /NKE.xlsx
+          url: /files/NKE.xlsx
         - name: SOFI
-          url: /SOFI.xlsx
+          url: /files/SOFI.xlsx
         - name: CELH
-          url: /CELH.xlsx
+          url: /files/CELH.xlsx
+        - name: FUBO
+          url: /files/FUBO.xlsx
+        - name: WYNN
+          url: /files/WYNN.xlsx
+        - name: HNST
+          url: /files/HNST.xlsx
+        - name: ELF
+          url: /files/ELF.xlsx
+        - name: CAKE
+          url: /files/CAKE.xlsx
+        - name: SEMR
+          url: /files/SEMR.xlsx
+        - name: PLNH
+          url: /files/PLNH.xlsx
     - key: Word
       value:
         - name: PLNH_Analysis
-          url: /PLNH_Analysis.docx
+          url: /files/PLNH_Analysis.docx
 
 - key: Source
   value: piazzai/hacked-jekyll
